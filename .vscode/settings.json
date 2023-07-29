@@ -1,0 +1,79 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "directory": "packages/ui",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "../apps/web",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": ".",
+      "changeProcessCWD": true
+    },
+  ],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "typescript.preferences.quoteStyle": "single",
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "IDEA",
+    "OPTIMIZE",
+    "PR",
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "foreground": "#ffcc00"
+    },
+    "FIXME": {
+      "foreground": "#CB00FF"
+    },
+    "BUG": {
+      "foreground": "#ff0000"
+    },
+    "HACK": {
+      "foreground": "#F57900"
+    },
+    "IDEA": {
+      "foreground": "#729FCF"
+    },
+    "OPTIMIZE": {
+      "foreground": "#FFFFFF"
+    },
+    "PR": {
+      "icon": "question",
+      "type": "text-and-comment",
+      "foreground": "#000",
+      "background": "#3fabd9",
+      "iconColour": "#3fabd9",
+      "fontWeight": "bold"
+    },
+  },
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "#24be02",
+    "type": "none"
+  },
+  "todo-tree.tree.expanded": true,
+  "todo-tree.tree.flat": true,
+  "standard.options": {
+    "parser": "babel-eslint",
+    "space-before-function-paren": false
+  },
+  "files.associations": {
+    "*.md": "markdown"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "files.eol": "\n",
+}

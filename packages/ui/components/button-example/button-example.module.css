@@ -1,0 +1,17 @@
+.root {
+  color: chocolate;
+}
+
+.root:hover {
+  color: red;
+}
+
+.disabled {
+  background-color: grey;
+  color: darkgray;
+}
+
+.active {
+  background-color: aquamarine;
+  color: blueviolet;
+}

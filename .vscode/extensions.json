@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "steoates.autoimport",
+    "formulahendry.auto-rename-tag",
+    "dzannotti.vscode-babel-coloring",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.git-extension-pack",
+    "donjayamanne.githistory",
+    "fabiospampinato.vscode-highlight",
+    "ecmel.vscode-html-css",
+    "christian-kohler.npm-intellisense",
+    "Gruntfuggly.todo-tree",
+    "ChakrounAnas.turbo-console-log",
+    "rvest.vs-code-prettier-eslint",
+    "clinyong.vscode-css-modules",
+  ]
+}

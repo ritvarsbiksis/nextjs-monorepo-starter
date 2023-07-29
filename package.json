@@ -1,0 +1,30 @@
+{
+  "name": "api-marketplace-ui",
+  "private": true,
+  "packageManager": "npm@9.5.1",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "cypress": "^12.17.1",
+    "dotenv-cli": "latest",
+    "eslint": "latest",
+    "eslint-config-custom": "*",
+    "prettier": "latest",
+    "prettier-config-custom": "*",
+    "turbo": "latest"
+  }
+}
