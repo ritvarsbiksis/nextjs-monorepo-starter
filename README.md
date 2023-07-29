@@ -7,5 +7,5 @@
 - Turbo
 - Cypress
 - Vitest
-– Module CSS
+- Module CSS
 
