@@ -9,6 +9,6 @@ describe('Button example', () => {
 
     expect(btn).toBeInTheDocument
     expect(btn).toHaveClass('root')
-    expect(screen.getByText('test')).toBeInTheDocument
+    expect(screen.getByText('Test')).toBeInTheDocument
   })
 })
