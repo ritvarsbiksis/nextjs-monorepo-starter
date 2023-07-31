@@ -1,10 +1,7 @@
 import { NavigExample } from '../components/navig-example/navig-example'
-import { Noto_Sans_Display } from '@next/font/google'
-
-const notoSansDisplay = Noto_Sans_Display({
-  subsets: ['latin-ext'],
-  weight: ['400', '700'],
-})
+import { Providers } from '../components/providers/providers'
+import { notoSansDisplay } from '../styles/fonts'
+import '../styles/global.css'
 
 interface RootLayoutProps {
   children: React.ReactNode
@@ -13,8 +10,10 @@ interface RootLayoutProps {
 const RootLayout = ({ children }: RootLayoutProps) => (
   <html lang="en">
     <body suppressHydrationWarning={true} className={notoSansDisplay.className}>
-      <NavigExample />
-      {children}
+      <Providers>
+        <NavigExample />
+        {children}
+      </Providers>
     </body>
   </html>
 )

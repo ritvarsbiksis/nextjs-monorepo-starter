@@ -8,3 +8,6 @@
 - Cypress
 - Vitest
 - Module CSS
+- Google Fonts
+- React Query
+- Zustand

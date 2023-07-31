@@ -5,6 +5,7 @@ describe('Home page', () => {
 
   beforeEach(() => {
     cy.visit(host)
+    cy.clearLocalStorage()
     cy.wait(500)
   })
 
@@ -17,10 +18,12 @@ describe('Home page', () => {
         cy.get('a').eq(1).click()
       })
 
+    cy.contains('List of posts').should('exist')
+
     cy.get('ul')
       .should('exist')
       .within(() => {
-        cy.contains('Item 3').should('exist')
+        cy.get('li').should('have.length', 12)
       })
   })
 })
