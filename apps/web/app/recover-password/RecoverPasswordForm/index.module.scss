@@ -1,0 +1,19 @@
+@import "../../_css/common";
+
+
+.formWrapper {
+  width: 66.66%;
+
+  @include mid-break {
+    width: 100%;
+  }
+}
+
+.submit {
+  margin-top: var(--base);
+}
+
+.message {
+  margin-bottom: var(--base);
+}
+
