@@ -6,7 +6,7 @@
     "coverage": "vitest run --coverage",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start -p 8090",
     "lint": "next lint"
@@ -23,14 +23,12 @@
   "devDependencies": {
     "@tanstack/react-query-devtools": "^4.32.0",
     "@testing-library/jest-dom": "^5.16.5",
-    "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "eslint-config-custom": "*",
     "prettier-config-custom": "*",
     "test-utils": "*",
-    "tsconfig": "*",
-    "typescript": "^4.5.3"
+    "tsconfig": "*"
   }
 }

@@ -3,6 +3,18 @@
   "globalDependencies": [
     "**/.env.*local"
   ],
+  "globalEnv": [
+    "NEXT_PUBLIC_PAYLOAD_URL",
+    "PAYLOAD_PUBLIC_SITE_URL",
+    "PAYLOAD_PUBLIC_SERVER_URL",
+    "DATABASE_URI",
+    "PAYLOAD_SECRET",
+    "COOKIE_DOMAIN",
+    "PAYLOAD_PORT",
+    "PAYLOAD_CONFIG_PATH",
+    "PAYLOAD_PUBLIC_SEED",
+    "PAYLOAD_DROP_DATABASE"
+  ],
   "pipeline": {
     "build": {
       "dependsOn": [

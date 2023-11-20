@@ -1,7 +1,7 @@
-import { NavigExample } from '../components/navig-example/navig-example'
-import { Providers } from '../components/providers/providers'
-import { notoSansDisplay } from '../styles/fonts'
-import '../styles/global.css'
+import { NavigExample } from '../../components/navig-example/navig-example'
+import { Providers } from '../../components/providers/providers'
+import { notoSansDisplay } from '../../styles/fonts'
+import '../../styles/global.css'
 
 interface RootLayoutProps {
   children: React.ReactNode

@@ -20,12 +20,14 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@types/node": "^20.9.2",
     "cypress": "^13.5.1",
     "dotenv-cli": "latest",
-    "eslint": "latest",
+    "eslint": "^8.54.0",
     "eslint-config-custom": "*",
     "prettier": "latest",
     "prettier-config-custom": "*",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "^5.2.2"
   }
 }
