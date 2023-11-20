@@ -1,9 +1,10 @@
 {
-  "name": "api-marketplace-ui",
+  "name": "nextjs-monorepo-starter",
   "private": true,
-  "packageManager": "npm@9.5.1",
+  "version": "1.0.0",
+  "packageManager": "npm@10.0.0",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "workspaces": [
     "apps/*",
@@ -19,7 +20,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "cypress": "^12.17.1",
+    "cypress": "^13.5.1",
     "dotenv-cli": "latest",
     "eslint": "latest",
     "eslint-config-custom": "*",
