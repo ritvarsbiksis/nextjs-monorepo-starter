@@ -6,9 +6,11 @@ import { buildConfig } from 'payload/config'
 
 import { Users } from './collections/Users'
 import { BeforeLogin } from './components/BeforeLogin'
+import { Categories } from './collections/Categories'
+import { Posts } from './collections/Posts'
 
 export default buildConfig({
-  collections: [Users],
+  collections: [Users, Categories, Posts],
   admin: {
     bundler: webpackBundler(),
     components: {
