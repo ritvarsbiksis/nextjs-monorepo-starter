@@ -15,7 +15,7 @@ app.get('/', (_, res) => {
   res.redirect('/admin')
 })
 
-const PORT = process.env.PAYLOAD_PORT
+const PORT = process.env.CMS_PORT
 
 const start = async ({ port }: { port: string }): Promise<void> => {
   await payload.init({

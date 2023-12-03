@@ -13,9 +13,9 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "build": "turbo run build",
+    "build": "npm --prefix ./apps/web run build && npm --prefix ./apps/cms run build ",
     "dev": "turbo run dev",
-    "start": "turbo run start",
+    "serve": "npm run serve",
     "lint": "turbo run lint",
     "test": "turbo run test",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
